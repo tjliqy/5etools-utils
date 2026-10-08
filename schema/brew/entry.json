@@ -3085,6 +3085,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"type": {
 							"type": "string",
 							"const": "statblock"
