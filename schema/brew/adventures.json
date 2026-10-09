@@ -48,6 +48,9 @@
 					"author": {
 						"type": "string"
 					},
+					"translator": {
+						"type": "string"
+					},
 					"contents": {
 						"description": "The linked Table of Contents of the adventure.",
 						"type": "array",
@@ -55,6 +58,9 @@
 						"items": {
 							"type": "object",
 							"properties": {
+								"type": {
+									"const": "section"
+								},
 								"name": {
 									"type": "string"
 								},

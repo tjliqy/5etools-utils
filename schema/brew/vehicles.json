@@ -75,6 +75,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"entries": {
 					"type": "array",
 					"items": {
@@ -122,6 +125,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"source": {
@@ -249,6 +255,9 @@
 							"name": {
 								"type": "string"
 							},
+							"ENG_name": {
+								"type": "string"
+							},
 							"ac": {
 								"type": "integer"
 							},
@@ -281,6 +290,9 @@
 						"type": "object",
 						"properties": {
 							"name": {
+								"type": "string"
+							},
+							"ENG_name": {
 								"type": "string"
 							},
 							"isControl": {
@@ -362,6 +374,9 @@
 							"name": {
 								"type": "string"
 							},
+							"ENG_name": {
+								"type": "string"
+							},
 							"ac": {
 								"type": "integer"
 							},
@@ -398,6 +413,9 @@
 							"name": {
 								"type": "string"
 							},
+							"ENG_name": {
+								"type": "string"
+							},
 							"entries": {
 								"type": "array",
 								"items": {
@@ -420,6 +438,9 @@
 								"type": "object",
 								"properties": {
 									"name": {
+										"type": "string"
+									},
+									"ENG_name": {
 										"type": "string"
 									},
 									"entries": {
@@ -516,6 +537,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "util.json#/$defs/source"
 				},
@@ -599,6 +623,9 @@
 							"name": {
 								"type": "string"
 							},
+							"ENG_name": {
+								"type": "string"
+							},
 							"ac": {
 								"type": "integer"
 							},
@@ -638,6 +665,9 @@
 									"type": "object",
 									"properties": {
 										"name": {
+											"type": "string"
+										},
+										"ENG_name": {
 											"type": "string"
 										},
 										"entries": {
@@ -719,6 +749,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"source": {

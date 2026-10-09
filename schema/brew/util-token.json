@@ -21,6 +21,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "util.json#/$defs/source"
 				}
@@ -52,6 +55,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "util.json#/$defs/source"
 				},
@@ -79,6 +85,9 @@
 					"type": "string"
 				},
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"source": {
@@ -111,6 +120,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "util.json#/$defs/source"
 				},
@@ -139,6 +151,9 @@
 					"$ref": "#/$defs/tokenHref"
 				},
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"source": {

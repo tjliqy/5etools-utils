@@ -11,6 +11,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"prerequisite": {
 					"$ref": "util.json#/$defs/prerequisite"
 				},
@@ -24,6 +27,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"source": {
@@ -150,6 +156,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"prerequisite": {
 							"$ref": "util.json#/$defs/prerequisite"
 						},
@@ -163,6 +172,9 @@
 							"type": "object",
 							"properties": {
 								"name": {
+									"type": "string"
+								},
+								"ENG_name": {
 									"type": "string"
 								},
 								"source": {
@@ -293,6 +305,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"prerequisite": {
 							"$ref": "util.json#/$defs/prerequisite"
 						},
@@ -306,6 +321,9 @@
 							"type": "object",
 							"properties": {
 								"name": {
+									"type": "string"
+								},
+								"ENG_name": {
 									"type": "string"
 								},
 								"source": {

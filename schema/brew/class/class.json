@@ -12,6 +12,9 @@
 					"name": {
 						"type": "string"
 					},
+					"ENG_name": {
+						"type": "string"
+					},
 					"source": {
 						"$ref": "../util.json#/$defs/source"
 					}
@@ -204,6 +207,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "../util.json#/$defs/source"
 				},
@@ -307,6 +313,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"source": {
@@ -417,6 +426,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"source": {
@@ -535,6 +547,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"source": {
@@ -744,6 +759,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"shortName": {
@@ -957,6 +975,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"shortName": {
 							"type": "string"
 						},
@@ -1166,6 +1187,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"shortName": {
@@ -1458,6 +1482,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"alias": {
 							"$ref": "../util.json#/$defs/alias"
 						},
@@ -1681,6 +1708,9 @@
 										"type": "object",
 										"properties": {
 											"name": {
+												"type": "string"
+											},
+											"ENG_name": {
 												"type": "string"
 											},
 											"entries": {
@@ -1763,6 +1793,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"alias": {
 							"$ref": "../util.json#/$defs/alias"
 						},
@@ -1986,6 +2019,9 @@
 										"type": "object",
 										"properties": {
 											"name": {
+												"type": "string"
+											},
+											"ENG_name": {
 												"type": "string"
 											},
 											"entries": {
@@ -2069,6 +2105,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"alias": {
@@ -2294,6 +2333,9 @@
 								"type": "object",
 								"properties": {
 									"name": {
+										"type": "string"
+									},
+									"ENG_name": {
 										"type": "string"
 									},
 									"entries": {

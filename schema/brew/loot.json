@@ -176,6 +176,9 @@
 					"name": {
 						"type": "string"
 					},
+					"ENG_name": {
+						"type": "string"
+					},
 					"source": {
 						"$ref": "util.json#/$defs/source"
 					},
@@ -314,6 +317,9 @@
 					"name": {
 						"type": "string"
 					},
+					"ENG_name": {
+						"type": "string"
+					},
 					"source": {
 						"$ref": "util.json#/$defs/source"
 					},
@@ -369,6 +375,9 @@
 				"type": "object",
 				"properties": {
 					"name": {
+						"type": "string"
+					},
+					"ENG_name": {
 						"type": "string"
 					},
 					"source": {
@@ -443,6 +452,9 @@
 					"name": {
 						"type": "string"
 					},
+					"ENG_name": {
+						"type": "string"
+					},
 					"source": {
 						"$ref": "util.json#/$defs/source"
 					},
@@ -476,6 +488,9 @@
 				"type": "object",
 				"properties": {
 					"name": {
+						"type": "string"
+					},
+					"ENG_name": {
 						"type": "string"
 					},
 					"source": {

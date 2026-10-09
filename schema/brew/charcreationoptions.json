@@ -23,6 +23,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"entries": {
 					"type": "array",
 					"items": {

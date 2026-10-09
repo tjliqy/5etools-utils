@@ -10,6 +10,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"entries": {
 					"type": "array",
 					"items": {
@@ -108,6 +111,9 @@
 				"type": "object",
 				"properties": {
 					"name": {
+						"type": "string"
+					},
+					"ENG_name": {
 						"type": "string"
 					},
 					"source": {

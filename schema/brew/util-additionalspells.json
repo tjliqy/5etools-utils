@@ -301,6 +301,9 @@
 						"type": "string",
 						"markdownDescription": "Optional display name for the group"
 					},
+					"ENG_name": {
+						"type": "string"
+					},
 					"ability": {
 						"$ref": "#/$defs/additionalSpellsAbility"
 					},

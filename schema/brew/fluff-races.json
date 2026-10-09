@@ -10,6 +10,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "util.json#/$defs/source"
 				},
@@ -41,6 +44,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"source": {
@@ -77,6 +83,9 @@
 					"$comment": "This is a custom pre-processor tag, which merges together the array of objects into one. This allows proper inheritance, which JSON schema don't really do.",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"source": {

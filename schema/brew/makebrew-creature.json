@@ -15,6 +15,9 @@
 					"name": {
 						"type": "string"
 					},
+					"ENG_name": {
+						"type": "string"
+					},
 					"source": {
 						"$ref": "util.json#/$defs/source"
 					},
@@ -46,6 +49,9 @@
 				"type": "object",
 				"properties": {
 					"name": {
+						"type": "string"
+					},
+					"ENG_name": {
 						"type": "string"
 					},
 					"source": {

@@ -84,6 +84,9 @@
 								},
 								"markdownDescription": "An optional list of people who contributed to converting the source to 5etools format."
 							},
+							"translator": {
+								"type": "string"
+							},
 							"dateReleased": {
 								"type": "string",
 								"format": "date",
@@ -123,6 +126,13 @@
 						"markdownDescription": "A set of properties describing a &quot;source.&quot; A source could be, for example, a homebrew PDF, book, or blog post."
 					},
 					"minItems": 1,
+					"uniqueItems": true
+				},
+				"translators": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
 					"uniqueItems": true
 				},
 				"spellSchools": {
@@ -399,6 +409,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"source": {
 							"$ref": "util.json#/$defs/source"
 						},
@@ -429,6 +442,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"source": {
@@ -716,6 +732,9 @@
 		},
 		"name": {
 			"$ref": "names.json#/properties/name"
+		},
+		"ENG_name": {
+			"type": "string"
 		},
 		"object": {
 			"$ref": "objects.json#/properties/object"

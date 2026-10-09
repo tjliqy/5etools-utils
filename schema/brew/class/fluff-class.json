@@ -10,6 +10,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"preserveName": {
 					"const": true
 				},
@@ -57,6 +60,9 @@
 						"type": "object",
 						"properties": {
 							"name": {
+								"type": "string"
+							},
+							"ENG_name": {
 								"type": "string"
 							},
 							"preserveName": {
@@ -107,6 +113,9 @@
 						"type": "object",
 						"properties": {
 							"name": {
+								"type": "string"
+							},
+							"ENG_name": {
 								"type": "string"
 							},
 							"preserveName": {

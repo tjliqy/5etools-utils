@@ -10,6 +10,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"alias": {
 					"$ref": "util.json#/$defs/alias"
 				},
@@ -545,6 +548,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"alias": {
@@ -1086,6 +1092,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"alias": {
 							"$ref": "util.json#/$defs/alias"
 						},
@@ -1621,6 +1630,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"alias": {
@@ -2167,6 +2179,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"alias": {
 							"$ref": "util.json#/$defs/alias"
 						},
@@ -2706,6 +2721,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"alias": {

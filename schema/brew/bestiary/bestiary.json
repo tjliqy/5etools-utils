@@ -120,6 +120,12 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
+				"translator": {
+					"type": "string"
+				},
 				"shortName": {
 					"description": "Used anywhere a shortened form of the creatures name is required (e.g. in legendary action headers).\n\nIf not supplied, a shortened name will be automatically generated from the creature's full name.\n\nAlternatively use \"true\" if the \"shortName\" should be an exact copy of the creature's \"name\".",
 					"type": [
@@ -399,11 +405,21 @@
 							"markdownDescription": "For use in homebrew."
 						}
 					},
+					"patternProperties": {
+						"^[^|]+\\|[^|]+$": {
+							"type": "string"
+						}
+					},
 					"additionalProperties": false,
 					"minProperties": 1
 				},
 				"skill": {
 					"type": "object",
+					"patternProperties": {
+						"^[^|]+\\|[^|]+$": {
+							"type": "string"
+						}
+					},
 					"properties": {
 						"acrobatics": {
 							"type": "string"
@@ -679,6 +695,9 @@
 									"name": {
 										"type": "string"
 									},
+									"ENG_name": {
+										"type": "string"
+									},
 									"entries": {
 										"type": "array",
 										"items": {
@@ -731,6 +750,9 @@
 									"name": {
 										"type": "string"
 									},
+									"ENG_name": {
+										"type": "string"
+									},
 									"entries": {
 										"type": "array",
 										"items": {
@@ -769,6 +791,9 @@
 								"type": "object",
 								"properties": {
 									"name": {
+										"type": "string"
+									},
+									"ENG_name": {
 										"type": "string"
 									},
 									"entries": {
@@ -811,6 +836,9 @@
 									"name": {
 										"type": "string"
 									},
+									"ENG_name": {
+										"type": "string"
+									},
 									"entries": {
 										"type": "array",
 										"items": {
@@ -834,6 +862,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"source": {
@@ -870,6 +901,9 @@
 									"name": {
 										"type": "string"
 									},
+									"ENG_name": {
+										"type": "string"
+									},
 									"entries": {
 										"type": "array",
 										"items": {
@@ -904,6 +938,9 @@
 								"type": "object",
 								"properties": {
 									"name": {
+										"type": "string"
+									},
+									"ENG_name": {
 										"type": "string"
 									},
 									"entries": {
@@ -1371,6 +1408,9 @@
 							"name": {
 								"type": "string"
 							},
+							"ENG_name": {
+								"type": "string"
+							},
 							"value": {
 								"type": "integer"
 							},
@@ -1456,6 +1496,12 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
+							"type": "string"
+						},
+						"translator": {
 							"type": "string"
 						},
 						"shortName": {
@@ -1737,11 +1783,21 @@
 									"markdownDescription": "For use in homebrew."
 								}
 							},
+							"patternProperties": {
+								"^[^|]+\\|[^|]+$": {
+									"type": "string"
+								}
+							},
 							"additionalProperties": false,
 							"minProperties": 1
 						},
 						"skill": {
 							"type": "object",
+							"patternProperties": {
+								"^[^|]+\\|[^|]+$": {
+									"type": "string"
+								}
+							},
 							"properties": {
 								"acrobatics": {
 									"type": "string"
@@ -2017,6 +2073,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -2069,6 +2128,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -2107,6 +2169,9 @@
 										"type": "object",
 										"properties": {
 											"name": {
+												"type": "string"
+											},
+											"ENG_name": {
 												"type": "string"
 											},
 											"entries": {
@@ -2149,6 +2214,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -2172,6 +2240,9 @@
 							"type": "object",
 							"properties": {
 								"name": {
+									"type": "string"
+								},
+								"ENG_name": {
 									"type": "string"
 								},
 								"source": {
@@ -2208,6 +2279,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -2242,6 +2316,9 @@
 										"type": "object",
 										"properties": {
 											"name": {
+												"type": "string"
+											},
+											"ENG_name": {
 												"type": "string"
 											},
 											"entries": {
@@ -2707,6 +2784,9 @@
 								"type": "object",
 								"properties": {
 									"name": {
+										"type": "string"
+									},
+									"ENG_name": {
 										"type": "string"
 									},
 									"value": {
@@ -2801,6 +2881,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"shortName": {
 							"description": "Used anywhere a shortened form of the creatures name is required (e.g. in legendary action headers).\n\nIf not supplied, a shortened name will be automatically generated from the creature's full name.\n\nAlternatively use \"true\" if the \"shortName\" should be an exact copy of the creature's \"name\".",
 							"type": [
@@ -3085,6 +3168,11 @@
 						},
 						"skill": {
 							"type": "object",
+							"patternProperties": {
+								"^[^|]+\\|[^|]+$": {
+									"type": "string"
+								}
+							},
 							"properties": {
 								"acrobatics": {
 									"type": "string"
@@ -3360,6 +3448,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -3412,6 +3503,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -3450,6 +3544,9 @@
 										"type": "object",
 										"properties": {
 											"name": {
+												"type": "string"
+											},
+											"ENG_name": {
 												"type": "string"
 											},
 											"entries": {
@@ -3492,6 +3589,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -3515,6 +3615,9 @@
 							"type": "object",
 							"properties": {
 								"name": {
+									"type": "string"
+								},
+								"ENG_name": {
 									"type": "string"
 								},
 								"source": {
@@ -3551,6 +3654,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"entries": {
 												"type": "array",
 												"items": {
@@ -3585,6 +3691,9 @@
 										"type": "object",
 										"properties": {
 											"name": {
+												"type": "string"
+											},
+											"ENG_name": {
 												"type": "string"
 											},
 											"entries": {
@@ -4050,6 +4159,9 @@
 								"type": "object",
 								"properties": {
 									"name": {
+										"type": "string"
+									},
+									"ENG_name": {
 										"type": "string"
 									},
 									"value": {
@@ -4150,6 +4262,9 @@
 								"name": {
 									"type": "string"
 								},
+								"ENG_name": {
+									"type": "string"
+								},
 								"source": {
 									"$ref": "../util.json#/$defs/source"
 								},
@@ -4166,6 +4281,9 @@
 							"type": "object",
 							"properties": {
 								"name": {
+									"type": "string"
+								},
+								"ENG_name": {
 									"type": "string"
 								},
 								"source": {
@@ -4213,6 +4331,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"type": {
@@ -4263,6 +4384,9 @@
 										"name": {
 											"type": "string"
 										},
+										"ENG_name": {
+											"type": "string"
+										},
 										"source": {
 											"$ref": "../util.json#/$defs/source"
 										},
@@ -4279,6 +4403,9 @@
 									"type": "object",
 									"properties": {
 										"name": {
+											"type": "string"
+										},
+										"ENG_name": {
 											"type": "string"
 										},
 										"source": {
@@ -4307,6 +4434,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"type": {
@@ -4360,6 +4490,9 @@
 										"name": {
 											"type": "string"
 										},
+										"ENG_name": {
+											"type": "string"
+										},
 										"source": {
 											"$ref": "../util.json#/$defs/source"
 										},
@@ -4376,6 +4509,9 @@
 									"type": "object",
 									"properties": {
 										"name": {
+											"type": "string"
+										},
+										"ENG_name": {
 											"type": "string"
 										},
 										"source": {

@@ -1897,6 +1897,9 @@
 											"name": {
 												"type": "string"
 											},
+											"ENG_name": {
+												"type": "string"
+											},
 											"source": {
 												"$ref": "util.json#/$defs/source"
 											},
@@ -1915,6 +1918,9 @@
 										"type": "object",
 										"properties": {
 											"name": {
+												"type": "string"
+											},
+											"ENG_name": {
 												"type": "string"
 											},
 											"source": {
@@ -2068,6 +2074,9 @@
 								"name": {
 									"type": "string"
 								},
+								"ENG_name": {
+									"type": "string"
+								},
 								"displayEntry": {
 									"description": "Optional long-form name to be used in the rendered entity.",
 									"type": "string",
@@ -2089,6 +2098,9 @@
 							"type": "object",
 							"properties": {
 								"name": {
+									"type": "string"
+								},
+								"ENG_name": {
 									"type": "string"
 								},
 								"displayEntry": {
@@ -2751,6 +2763,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"recharge": {
 					"type": "string",
 					"enum": [
@@ -2775,6 +2790,9 @@
 						"type": "object",
 						"properties": {
 							"name": {
+								"type": "string"
+							},
+							"ENG_name": {
 								"type": "string"
 							},
 							"recharge": {
@@ -2822,6 +2840,9 @@
 						"type": "object",
 						"properties": {
 							"name": {
+								"type": "string"
+							},
+							"ENG_name": {
 								"type": "string"
 							},
 							"recharge": {
@@ -2892,6 +2913,9 @@
 			"properties": {
 				"name": {
 					"$ref": "#/$defs/consumesName"
+				},
+				"ENG_name": {
+					"type": "string"
 				}
 			},
 			"additionalProperties": false
@@ -2903,6 +2927,9 @@
 					"properties": {
 						"name": {
 							"$ref": "#/$defs/consumesName"
+						},
+						"ENG_name": {
+							"type": "string"
 						},
 						"amount": {
 							"type": "integer"
@@ -2918,6 +2945,9 @@
 					"properties": {
 						"name": {
 							"$ref": "#/$defs/consumesName"
+						},
+						"ENG_name": {
+							"type": "string"
 						},
 						"amountMin": {
 							"type": "integer"
@@ -2990,6 +3020,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"preserveName": {
 					"const": true
 				},
@@ -3030,6 +3063,9 @@
 							"name": {
 								"type": "string"
 							},
+							"ENG_name": {
+								"type": "string"
+							},
 							"preserveName": {
 								"const": true
 							},
@@ -3067,6 +3103,9 @@
 						"$comment": "This is a custom pre-processor tag, which merges together the array of objects into one. This allows proper inheritance, which JSON schema don't really do.",
 						"properties": {
 							"name": {
+								"type": "string"
+							},
+							"ENG_name": {
 								"type": "string"
 							},
 							"preserveName": {

@@ -96,6 +96,9 @@
 																"name": {
 																	"type": "string"
 																},
+																"ENG_name": {
+																	"type": "string"
+																},
 																"subSubclasses": {
 																	"type": "array",
 																	"items": {

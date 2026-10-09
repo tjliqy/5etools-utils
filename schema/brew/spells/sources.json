@@ -20,6 +20,9 @@
 									"name": {
 										"type": "string"
 									},
+									"ENG_name": {
+										"type": "string"
+									},
 									"source": {
 										"type": "string"
 									},
@@ -41,6 +44,9 @@
 								"type": "object",
 								"properties": {
 									"name": {
+										"type": "string"
+									},
+									"ENG_name": {
 										"type": "string"
 									},
 									"source": {

@@ -252,6 +252,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -350,6 +353,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -451,6 +457,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -552,6 +561,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -653,6 +665,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -775,6 +790,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -876,6 +894,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -985,6 +1006,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -1121,6 +1145,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -1165,6 +1192,9 @@
 									"name": {
 										"type": "string"
 									},
+									"ENG_name": {
+										"type": "string"
+									},
 									"cr": {
 										"type": "string"
 									},
@@ -1192,9 +1222,12 @@
 									"name": {
 										"type": "string"
 									},
+									"ENG_name": {
+										"type": "string"
+									},
 									"uuid": {
 										"type": "string",
-										"pattern": "^@creature\\[.*\\]$"
+										"pattern": "^(?:@creature\\[.*\\]|\\{!@ \\$[^}]+\\}(?:\\|\\{!@ \\$[^}]+\\})?)$"
 									},
 									"count": {
 										"type": [
@@ -1289,6 +1322,9 @@
 														"properties": {
 															"name": {
 																"$ref": "util.json#/$defs/consumesName"
+															},
+															"ENG_name": {
+																"type": "string"
 															}
 														},
 														"required": [
@@ -1368,6 +1404,9 @@
 					"markdownDescription": "Use only when required. For example, when linking an &quot;enchantmentRiderParent&quot;."
 				},
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"img": {
@@ -1623,6 +1662,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "util.json#/$defs/source"
 				},
@@ -1678,6 +1720,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"source": {
@@ -1753,6 +1798,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"source": {

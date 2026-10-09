@@ -10,6 +10,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"source": {
 					"$ref": "../util.json#/$defs/source"
 				},
@@ -44,11 +47,14 @@
 			"anyOf": [
 				{
 					"type": "object",
-					"properties": {
-						"name": {
-							"type": "string"
-						},
-						"source": {
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
+					"type": "string"
+				},
+				"source": {
 							"$ref": "../util.json#/$defs/source"
 						},
 						"page": {
@@ -84,11 +90,14 @@
 				},
 				{
 					"type": "object",
-					"properties": {
-						"name": {
-							"type": "string"
-						},
-						"source": {
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
+					"type": "string"
+				},
+				"source": {
 							"$ref": "../util.json#/$defs/source"
 						},
 						"page": {

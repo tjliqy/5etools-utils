@@ -21,6 +21,9 @@
 				},
 				"name": {
 					"type": "string"
+				},
+				"ENG_name": {
+					"type": "string"
 				}
 			},
 			"additionalProperties": false
@@ -43,6 +46,9 @@
 							"$ref": "util.json#/$defs/reprintedAs"
 						},
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"template": {
@@ -79,6 +85,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"template": {
 							"type": "string"
 						},
@@ -101,6 +110,9 @@
 			"type": "object",
 			"properties": {
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"alias": {
@@ -485,6 +497,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"alias": {
@@ -873,6 +888,9 @@
 					"type": "object",
 					"properties": {
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"alias": {
@@ -1273,6 +1291,9 @@
 							"name": {
 								"type": "string"
 							},
+							"ENG_name": {
+								"type": "string"
+							},
 							"source": {
 								"$ref": "util.json#/$defs/source"
 							}
@@ -1336,6 +1357,9 @@
 				"name": {
 					"type": "string"
 				},
+				"ENG_name": {
+					"type": "string"
+				},
 				"entries": {
 					"type": "array",
 					"items": {
@@ -1361,6 +1385,9 @@
 					"$ref": "util.json#/$defs/reprintedAs"
 				},
 				"name": {
+					"type": "string"
+				},
+				"ENG_name": {
 					"type": "string"
 				},
 				"entriesTemplate": {
@@ -1398,6 +1425,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"entries": {
 							"type": "array",
 							"items": {
@@ -1427,6 +1457,9 @@
 							"$ref": "util.json#/$defs/reprintedAs"
 						},
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"entries": {
@@ -1462,6 +1495,9 @@
 						"name": {
 							"type": "string"
 						},
+						"ENG_name": {
+							"type": "string"
+						},
 						"entriesTemplate": {
 							"type": "array",
 							"items": {
@@ -1491,6 +1527,9 @@
 							"$ref": "util.json#/$defs/reprintedAs"
 						},
 						"name": {
+							"type": "string"
+						},
+						"ENG_name": {
 							"type": "string"
 						},
 						"entriesTemplate": {
@@ -1569,6 +1608,9 @@
 					"name": {
 						"type": "string"
 					},
+					"ENG_name": {
+						"type": "string"
+					},
 					"source": {
 						"$ref": "util.json#/$defs/source"
 					},
@@ -1592,6 +1634,9 @@
 				"type": "object",
 				"properties": {
 					"name": {
+						"type": "string"
+					},
+					"ENG_name": {
 						"type": "string"
 					},
 					"source": {
